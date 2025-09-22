@@ -1,0 +1,23 @@
+@import url('./reset.css');
+@import url('./header.css');
+
+body {
+    background:#000;
+    width: 80%;
+    margin: auto
+}
+
+section{
+    margin: 16px auto;
+}
+
+section h2 {
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Raleway;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

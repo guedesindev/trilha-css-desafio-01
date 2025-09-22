@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.banner{
+   display: flex;
+   justify-content: center;
+   background: url('../images/banner.png');
+   border-bottom: 5px solid #1472B7;
+   width: 100%;
+   margin: 1rem auto;
+   border-radius: 2px;   
+}
+
+.banner image{
+    opacity: .1;
+    /* background-color: linear-gradient(#1472B7, #31a8dd); */
+}
+
+.banner-content{    
+    width: 510px;
+    height: 393px;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 56px;
+}
+
+.logo{}
+
+img{
+}
+
+header h1{
+   font-size: 40px;
+   font-weight: 900;
+   line-height: 100%;
+   font-family: Raleway;
+
+   background: -webkit-linear-gradient(#33A8DB, #1472B7);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+header p{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: justify;
+    color: #FFF;
+
+}
+
+header button{
+    padding: 19px 91px;
+    background: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #33A8DB;
+}
+
+header button::before{
+    background: linear-gradient(to right, #4382c9, #5bafe4);
+}
+
+header button::after{
+    content: ''; /* Conteúdo necessário para pseudo-elementos */
+    background: #000; /* Define a cor branca para a borda */
+    z-index: -2; /* Posiciona a borda ainda mais atrás do gradiente */    
+}
