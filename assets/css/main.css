@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./course.css');
 @import url('./challenges.css');
+@import url('./footer.css');
 
 body {
     background:#000;

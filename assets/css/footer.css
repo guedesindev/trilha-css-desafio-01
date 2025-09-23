@@ -1,0 +1,21 @@
+footer{
+    background-image: linear-gradient(rgba(50,168,219, .0), rgba(50,168,219,.2));
+    padding: 60px 0;
+    text-align: center;
+    border-top: #33A8D880;
+}
+
+footer img{
+    margin: 10px;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer a{
+    color: #31a8dd;
+    text-decoration: none;
+    font-weight: 700;
+}
