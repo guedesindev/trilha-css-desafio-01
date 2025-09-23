@@ -3,13 +3,18 @@ footer{
     padding: 60px 0;
     text-align: center;
     border-top: #33A8D880;
+    
 }
 
 footer img{
-    margin: 10px;
+    width: 300px;
+    margin: 0;
+    overflow-clip-margin: content-box;
 }
 
 footer p{
+    font-family: "Raleway", sans-serif;
+    color: #FFF;
     font-size: 16px;
     font-weight: 400;
 }
