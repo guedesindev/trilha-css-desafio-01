@@ -1,0 +1,25 @@
+ #professional-challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 746px;
+ }
+
+ #professional-challenges h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Raleway;
+    font-style: bold;
+    letter-spacing: 5px;
+    width: 746px;
+ }
+
+ #professional-challenges img{
+ }
+
+ #professional-challenges p{
+    color: #FFF;
+    width: 700px;
+    text-align: center;
+ }
