@@ -3,25 +3,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 746px;
-    margin: 32px auto;
-    height: 100vh;
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
  }
 
  #professional-challenges h2{
     font-size: 32px;
     font-weight: 700;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-style: bold;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     width: 746px;
+    margin-bottom: 24px;
  }
 
  #professional-challenges img{
+   margin: 32px 0;
+   overflow-clip-margin: content-box;
  }
 
  #professional-challenges p{
     color: #FFF;
     width: 700px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
  }
