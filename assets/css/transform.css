@@ -1,0 +1,19 @@
+#transform-world{
+    margin: 100px auto;
+    height:260px;
+    background-size: cover;
+    background-image: url('../images/woman-code.png');
+    background-attachment: fixed;
+    border-top: 1px solid #33A8D880;
+    border-bottom: 1px solid #33A8D880;
+    padding: 200px;
+}
+
+#transform-world p{
+    color: #FFF;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
