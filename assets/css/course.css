@@ -1,11 +1,15 @@
 #course-content{
-    width: 792px;     
-    height: 325px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Raleway;
+    width: 800px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+#course-content h2{
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 56px auto 24px auto;
 }
 
 #course-content p{
@@ -14,21 +18,30 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin: 24px auto
 }
 
-.modules-list{
+#course-content .modules-list{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 16px;
+    margin: 24px 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .module{
-    padding: 16px 127px;  
+    width: 530px;
     text-align: center;
     color: #FFF;
+    margin: 0, auto, 24px;
     border: 1px solid #33A8DB;
+    background-color: #252525;
     border-radius: 2rem;
-    box-shadow: inset -2px 6px 4px #000;
+    padding: 16px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
 }
 
 .module span{
